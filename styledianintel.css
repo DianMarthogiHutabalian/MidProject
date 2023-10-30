@@ -1,0 +1,697 @@
+/*index*/
+
+.bar-atas ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 30px;
+    text-align: right;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #0068b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+@font-face {
+    font-family: 'Intel Clear Light';
+    src: url('IntelClear_Ltlt.ttf') format('truetype');
+    }
+}
+.bar-atas ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px; 
+    margin-left: 390px;
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+.fas{
+    font-size: 21px;
+}
+
+.kotak{
+    border:white;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkblue;
+}
+a:visited{
+    color: #47728a;#0068b5
+}
+
+.logo img{
+    width:70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ica123 img{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 58%;
+}
+
+.kotak1{
+    position: absolute;
+    top:150px;
+    left:210px;   
+    background-color:#47728a;
+    width: 30%;
+    height: 51%;
+}
+
+.headline{
+    color: white;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: -1;
+    font-family:'Intel Clear Light',Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.headline2{
+    color: #0068b5;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family:'Intel Clear Light',Arial, Helvetica, sans-serif;
+}
+
+.headline2:hover{
+    color: rgb(65, 65, 104);
+}
+
+.description{
+    color: #fff;
+    line-height:21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 12px;
+    margin-top: -20px;
+}
+
+.fas.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.cekbox{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    margin-left: 40px;
+    color: #0068b5; 
+}
+
+.cekbox:hover{
+    color: rgb(2, 2, 84);
+}
+
+.box1{
+    display: flex;
+    flex: 1;
+    position: absolute;
+    background-color: #5285a1b4;
+    margin-top:4%;
+    width: 40px;
+    height: 40px;
+    margin-left:-40px;
+}
+
+.next img{
+    width: 150%;
+    height: 105%;
+    margin-left: 100%;
+    margin-top:-23%;
+
+}
+
+.part5{
+    margin-top: 35%;
+    display: flex;
+    text-align: center;
+    gap: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    justify-content: center;
+    color:#565b5e;
+}
+
+.part5 ol{
+    list-style-type: none;
+}
+.fas{
+    font-size: 23px;
+}
+
+.persegi1{
+    width:22% ;
+    height: 240px;
+    margin-top: 20px;
+    border: 0 solid transparent;
+    background-color: rgba(222, 218, 218, 0.638);
+    margin-left: 12%;
+    overflow: hidden;
+}
+
+.persegi1 img{
+    width: 100%;
+    height: 240px;
+    top: 0;
+    left: 0;
+    transform: scale(1,1);
+    transition: all .4s ease-in;
+}
+
+#zoomimg:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in;
+}
+
+.inovasi{
+    margin-left: 20px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.conten2{
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 27px;
+    font-weight: 0;
+    margin-top: -8px;
+
+}
+
+.persegi2{
+    width: 22%;
+    height: 235px;
+    border: 0 solid transparent;
+    background-color: rgba(239, 238, 238, 0.896); 
+    margin-left: 12%;
+    margin-top: -15px;
+}
+
+.persegi3{
+    width: 22%;
+    height: 295px;
+    border: 0 solid transparent;
+    background-color: rgba(239, 238, 238, 0.896); 
+    margin-left: 12%;
+    margin-top: -15px;
+}
+
+.persegipanjang{
+    margin-left: 27%;
+    margin-top: -67.9%;
+}
+
+.persegi4{
+    width: 42%;
+    height: 330px;
+    margin-top: 20px;
+    border: 0 solid transparent;
+    background-color: rgba(222, 218, 218, 0.638);
+    margin-left: 12%;
+    overflow: hidden;
+}
+
+.persegi5{
+    width: 42%;
+    height: 650px;
+    border: 0 solid transparent;
+    background-color: rgba(239, 238, 238, 0.896); 
+    margin-left: 12%;
+    margin-top: -15px;
+}
+
+.persegi41{
+    width: 35%;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 0 solid transparent;
+    background-color:transparent;
+    overflow: hidden;
+
+}
+.persegi4 img{
+    transform: scale(1,1);
+    transition: all .4s ease-in;
+}
+
+.persegi41 img{
+    width: 100%;
+    transform: scale(1,1);
+    transition: all .4s ease-in;
+    margin-bottom: 34%;
+}
+
+h3{
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+    color: #0068b5;
+    background-color: transparent;
+    margin-left: 200px;
+    margin-top: -81%;
+    margin-right: 10%;
+}
+
+p{
+    font-family: 'Intel Clear Light', Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-left: 200px;
+    margin-top: -10px;
+    margin-right: 7%;
+}
+
+.persegi42{
+    width: 35%;
+    height: 120px;
+    margin-top: 135px;
+    margin-left: 20px;
+    border: 0 solid transparent;
+    background-color:transparent;
+    overflow: hidden;
+
+}
+
+.persegi42 img{
+    width: 100%;
+    transform: scale(1,1);
+    transition: all .4s ease-in;
+    margin-bottom: 34%;
+}
+
+.no3{
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+    color: #0068b5;
+    background-color: transparent;
+    margin-left: 200px;
+    margin-top: 13%;
+    margin-right: 10%;
+}
+
+.no4{
+    font-family: 'Intel Clear Light', Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-left: 200px;
+    margin-top: -10px;
+    margin-right: 7%;
+}
+
+h3:hover{
+    color: rgb(65, 65, 104);
+}
+
+.persegi7{
+    width:49% ;
+    height: 240px;
+    margin-top: 20px;
+    border: 0 solid transparent;
+    background-color: rgba(222, 218, 218, 0.638);
+    margin-left: 28%;
+    overflow: hidden;
+}
+
+.persegi7 img{
+    width: 100%;
+    height: 240px;
+    top: 0;
+    left: 0;
+    transform: scale(1,1);
+    transition: all .4s ease-in;
+}
+.persegi8{
+    width: 49%;
+    height: 275px;
+    border: 0 solid transparent;
+    background-color: rgba(239, 238, 238, 0.896); 
+    margin-left: 28%;
+    margin-top: -15px;
+}
+
+.persegi9{
+    width: 49%;
+    height: 242px;
+    border: 0 solid transparent;
+    background-color: rgba(239, 238, 238, 0.896); 
+    margin-left: 28%;
+    margin-top: -15px;
+}
+.trapesium{
+    margin-left: 55.3%;
+    margin-top: -65.5%;
+}
+
+.footer123{
+    background:rgba(222, 218, 218, 0.638);
+    position: absolute;
+    left: 0;
+    height: 54%;
+    margin-top: 130px;
+}
+
+.op123{
+    margin-left: 310px;
+    margin-top: 65px;
+}
+
+.footer-links{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.a123{
+    color: black;
+}
+
+.a123:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.social-media{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    font-size: 23px;
+}
+
+.op321{
+    color: black;
+}
+
+.op321:hover{
+    color: black;
+    text-decoration: none;
+}
+.op321:visited{
+    color: black;
+}
+
+.intel123{
+    display: flex;
+    list-style-type: none;
+    gap: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footer-end{
+    line-height: 14px;
+    margin-right: 230px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.logo-container{
+    width: 80px;
+    height: 80px;
+    margin-left: 190px;
+    margin-top: -150px;
+}
+
+#biodata{
+    background-color:  transparent;
+    width: 100%;
+    height: 80%;
+    margin-top: 25%;
+    left: 0;
+    position: absolute;
+    border-radius: 38px;
+}
+.biodata1-1{
+    background-color: rgb(182, 181, 181);
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.biodata1-1 img{
+    width: 55%;
+    margin-top:-11%;
+    margin-left: 22%;
+}   
+
+.biodata-1{
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+.diang img{
+    width: 20%;
+    height: 40%;
+    border-radius: 16px;
+    margin-left: 60%;
+    margin-top: -100%;
+}
+
+.obe3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: -30%;
+    color: black;
+   
+}
+.obe3:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.obe4{
+    font-family: 'Intel Clear Light', Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight:bolder;
+    margin-top: 10px;
+    margin-left: 20%;
+    color:black;
+}
+
+.data{
+    margin-left: 105px;
+    line-height: 12px;
+    margin-top: 30px;
+    font-family: 'Intel Clear Light', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.mt-2{
+    margin-left:20%;
+    margin-top: -20px;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+    margin-right: 40%;
+    color: black;
+}
+
+.mt-3{
+    color: black;
+}
+
+.mt-3:hover{
+    color:black;
+    text-decoration: underline;
+    
+}
+
+.divclass{
+    margin-top: 60%;
+}
+
+
+.tuf2{
+    background-color: rgb(182, 181, 181);
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    margin-top: 9px;
+    overflow: hidden;
+}
+
+.tuf2 img{
+    width: 100%;
+    margin-top:-24%;
+    margin-left:0;
+}   
+
+.kontak3-1{
+    margin-top: 27%
+}
+
+
+.obe5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: -30%;
+    color: black;
+}
+.dua1{
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-left: 20%;
+    margin-top: 6px;
+    
+}
+
+.dua1-2{
+    font-size: 14px;
+    margin-left: 20%;
+    margin-top: -29px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col1 {
+    flex: 1;
+    margin-right: 19px;
+    font-size: 16px;
+    width: 150px; 
+    height: 30px; 
+    margin-left: 20%;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    border-color:transparent ;
+}
+
+.col2 {
+    flex: 1;
+    margin-left: 19px;
+    font-size: 16px;
+    width: 150px; 
+    height: 30px; 
+    margin-right: 20%;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    border-color: transparent;
+}
+
+
+.col4{
+    margin-left: 20%;
+    margin-top: 15px;
+    font-size: 16px;
+    width: 150px; 
+    height: 30px; 
+    margin-right: 12px;
+    border-radius: 9px;
+    padding-right: 50%;
+    background-color: whitesmoke;
+    border-color: transparent;
+}
+
+.col5{
+    display: block;
+    margin-left: 20%;
+    font-family: 'Intel Clear Light', Arial, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+.col4-5{
+    margin-left: 20%;
+    margin-top: 16px;
+}
+
+.col6{
+    margin-left: 20%;
+}
+
+.col6-1{
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+}
+
+.col7{
+    margin-left: 20%;
+    font-family:'Intel Clear Light',Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+.col8{
+    margin-left: 20%;
+    font-family: 'Intel Clear Light',Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+    line-height: 44px;
+}
+
+#alamat{
+    background-color: whitesmoke;
+    border-radius: 13px;
+    border: transparent;
+}
+
+.col9{
+    margin-top: 25px;
+    margin-left: 30%;
+}
+
+input[type="submit"] {
+    width: 600px; 
+    height: 30px; 
+    font-size: 12px;
+    border: transparent;
+    border-radius: 29pxs;
+    background-color: #128fee;
+
+}
+
+.intel554{
+    margin-top: -80px;
+}
+
+#bio1-1{
+    background-color: rgb(182, 181, 181);
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+#bio1-1 img{
+    width: 100%;
+    margin-top:-19%;
+}   
+
+#bio-1{
+    margin-top: 40px;
+    margin-left: 20%;
+}

@@ -528,6 +528,10 @@ h3:hover{
     
 }
 
+.mt-3:visited{
+    color: black;
+}
+
 .divclass{
     margin-top: 60%;
 }
